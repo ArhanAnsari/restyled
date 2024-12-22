@@ -6,7 +6,7 @@ import z from "zod"
 import { Cloudinary } from "@cloudinary/url-gen"
 
 cloudinary.config({
-  cloud_name: "restyled",
+  cloud_name: "dr1k8njxu",
   api_key: process.env.CLOUDINARY_KEY,
   api_secret: process.env.CLOUDINARY_SECRET,
 })
