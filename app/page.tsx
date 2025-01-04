@@ -4,6 +4,7 @@
 import Loading from "@/components/loading"
 import { LayerStore } from "@/lib/layer-store"
 import { ImageStore } from "@/lib/store"
+import dynamic from "next/dynamic";
 
 const Editor = dynamic(() => import("@/components/editor"), { ssr: false });
 
